@@ -1,0 +1,92 @@
+/* CSS for Login & Signup & Forgot Password Page */
+
+.auth_wrapper input.form-control {
+  box-shadow: none;
+  height: 50px;
+}
+
+.auth-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.5);
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.auth-container h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container .form-group {
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  padding-bottom: 25px;
+}
+
+.auth-container .form-group label {
+  font-size: 16px;
+}
+
+.auth-container .btn-primary {
+  background-color: #00ab9b;
+  border: none;
+}
+
+.auth-container .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#role-dropdown {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.click-link,
+.forget-password-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.click-link {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.click-link a,
+.forget-password-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.click-link a:hover,
+.forget-password-link a:hover {
+  text-decoration: underline;
+}
+
+.reset-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red; /* Text color */
+  font-size: 14px; /* Font size */
+  margin-top: 5px; /* Spacing above the error message */
+}
+
+.success-message {
+  color: green;
+  font-weight: 700;
+}

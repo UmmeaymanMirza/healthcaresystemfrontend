@@ -1,0 +1,247 @@
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.section_heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner {
+  min-height: calc(100vh - (70px + 60px));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner h1 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.main {
+  /* 100 viewport - (header height + footer height) */
+  min-height: calc(100vh - (70px + 60px));
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========== about css ====== */
+
+.about_section {
+  padding: 50px 0;
+}
+
+.aboutPage_description p {
+  color: #4a4a4a;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.aboutPage_description .image img {
+  border-radius: 10px;
+}
+
+.aboutPage .gallery {
+  padding: 50px 0;
+}
+
+.aboutPage .gallery .gallery_image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.aboutPage .directors .directors_wrap {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aboutPage .directors .directors_wrap .single_img {
+  width: 180px;
+  text-align: center;
+}
+
+.aboutPage .directors .directors_wrap img {
+  width: 100%;
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+.directors .directors_wrap .single_img h4 {
+  font-size: 1.25rem;
+  margin: 10px 0 4px;
+}
+.directors .directors_wrap .single_img h6 {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+/* Css for contact us page */
+
+.contact-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.contact-us h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-us .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-us .form-group label {
+  font-size: 16px;
+}
+
+.formLabel {
+  padding-bottom: 25px;
+}
+
+.contact-us .btn-primary {
+  background-color: #00ab9b;
+  border: none;
+}
+
+.contact-us .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Css for Profile Page */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #00ab9b;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.profile-grid {
+  max-width: 600px; 
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 16px;
+}
+
+.choose-file-label {
+  cursor: pointer;
+  color: #1976d2;
+  margin-top: 8px;
+  display: block;
+}
+
+.choose-file-label input {
+  display: none;
+}
+
+
+.page-number-box {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagination-symbol {
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.page-item {
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+.active-link {
+  background-color: #007bff;
+  color: #fff;
+
+}
+.prescription-details {
+  margin-bottom: 20px; 
+}
+
+.prescription-details p {
+  margin-bottom: 10px; 
+  line-height: 1.5; 
+}
+
+.prescription-details strong {
+  font-weight: bold;
+}
+
+.bold-label {
+  font-weight: bold;
+}
+
+
